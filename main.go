@@ -44,6 +44,8 @@ type control struct {
 	Blocking bool   `json:"blocking,omitempty"`
 }
 
+// Version v0.0.1
+
 // Get function, main function of this module.
 func Get(ipaddress string, geo bool) *Data {
 	response := new(Data)
